@@ -1,0 +1,107 @@
+.book-entry {
+  /* display: flex; */
+  /* border: 1px solid #ccc; */
+  padding: 3rem 2rem;
+  margin: 10px;
+  border-radius: 4px;
+  background-color: var(--white-color);
+  box-shadow: rgba(0, 0, 0, 0.176) 0px 5px 15px 0px;
+  transition: var(--transition);
+  /* margin: auto; */
+  width: 30%;
+  cursor: pointer;
+}
+
+.book-entry img {
+  max-width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.book-entry div {
+  flex-grow: 1;
+}
+
+.book-entry p {
+  margin: 4px 0;
+}
+
+.book-entry button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Optional: Add hover effect to the button */
+.book-entry button:hover {
+  background-color: #0056b3;
+}
+
+.book-item {
+  display: flex;
+  flex-flow: wrap;
+}
+.book-entry:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.book-title p {
+  font-weight: bold;
+}
+.book-entry-info {
+  margin-top: 2rem;
+}
+.book-entry-info-item.title {
+  line-height: 1.4;
+  margin-bottom: 0.8rem;
+}
+.book-entry-info-item.author {
+  line-height: 1.4;
+  margin-bottom: 4px;
+}
+.book-entry-info-item:not(.book-entry-info-item.title) span:last-child {
+  opacity: 0.8;
+}
+.book-entry-info-item.publish-year {
+  opacity: 0.6;
+  font-style: italic;
+  font-size: 14px;
+}
+/* Your existing styles for .book-entry and others */
+
+/* Common button styles */
+.status-button {
+  /* Add any common styles for your buttons here */
+}
+
+/* Read button style */
+.read-button {
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Unread button style */
+.unread-button {
+  background-color: transparent;
+  border: 1px solid #007bff;
+  color: #007bff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Optional: Add hover effect to the buttons */
+.status-button:hover {
+  opacity: 0.8;
+}
+.cards-heading{
+  padding: 2px;
+  margin: 4px;
+  text-align: center;
+}
